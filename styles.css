@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact form {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.contact input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.contact input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.team {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.member {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+}
