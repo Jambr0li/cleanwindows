@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -54,4 +54,59 @@ body {
 .subheading > p {
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
+}
+
+.phone-number {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-right: 1rem;
+    color: white; /* This is the color of the text, replace it with any color you want */
+    padding: 10px 20px; /* This is the space around the text, adjust it as you wish */
+    text-decoration: none; /* This removes the underline from the link */
+    border-radius: 6px; /* This makes the corners of the button rounded */
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-size: 1.3rem; /* This sets the size of the text, adjust it as you wish */
+    transition: background-color 0.3s ease; /* This makes the color change gradually when you hover over the button */
+}
+
+.phone-number:hover {
+    background-color: white; /* This is the color the button changes to when you hover over it */
+    color: black;
+    border-color: black;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #d6873d; /* This is a green color, replace it with any color you want */
+    color: white; /* This is the color of the text, replace it with any color you want */
+    padding: 10px 20px; /* This is the space around the text, adjust it as you wish */
+    text-decoration: none; /* This removes the underline from the link */
+    border-radius: 6px; /* This makes the corners of the button rounded */
+    font-size: 1.3rem; /* This sets the size of the text, adjust it as you wish */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6873d;
+    transition: background-color 0.3s ease; /* This makes the color change gradually when you hover over the button */
+}
+
+.email-button:hover {
+
+    background-color: white; /* This is the color the button changes to when you hover over it */
+    color: black;
+}
+
+.what-we-do {
+    height: 80vh;
+    text-align: center;
+    background-color: rgba(22, 22, 22);
+    color:rgb(255, 255, 255);
+}
+
+.what-we-do > h2 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    position: absolute;
+    right: 30%;
 }
