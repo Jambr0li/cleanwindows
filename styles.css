@@ -137,6 +137,9 @@ body {
     .what-we-do {
         flex-direction: column;
     }
+    .who-we-are {
+        flex-direction: column;
+    }
 }
 
 .what-we-do-text > h2 {
@@ -180,8 +183,8 @@ body {
 
 .who-we-are-text {
     flex: 60%;
-    text-align: left;
-    margin-left: 10vw;
+    text-align: right;
+    margin-right: 10vw;
 }
 
 .who-we-are-text > h2 {
