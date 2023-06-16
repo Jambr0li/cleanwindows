@@ -132,7 +132,7 @@ body {
 .what-we-do {
     height: 90vh;
     text-align: center;
-    background-color: rgb(233, 233, 233);
+    background:  linear-gradient(rgba(222, 222, 222), rgb(196, 196, 196));
     display: flex;
     align-items: center;
     justify-content: space-between;
