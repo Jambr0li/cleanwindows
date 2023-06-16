@@ -138,34 +138,6 @@ body {
     justify-content: space-between;
 }
 
-@media screen and (orientation: portrait) {
-    .what-we-do {
-        flex-direction: column;
-    }
-    .who-we-are {
-        flex-direction: column;
-    }
-    .subheading > h2 {
-        font-size: 5rem;
-    }
-    .subheading > p {
-        font-size: 2rem;
-        width: 80%;
-    }
-    .phone-number {
-        font-size: 3rem;
-        border-radius: 10px;
-        margin-bottom: 1rem;
-    }
-    .email-button {
-        font-size: 3rem;
-        border-radius: 10px;
-    }
-    .link-container {
-        flex-direction: column;
-    }
-}
-
 .what-we-do-text > h2 {
     color: black;
     padding-bottom: 2rem;
@@ -174,8 +146,8 @@ body {
 
 .what-we-do-text {
     flex: 60%;
-    text-align: right;
-    margin-right: 10vw;
+    text-align: left;
+    margin-left: 5%;
 }
 
 .what-we-do-text > p {
@@ -207,8 +179,8 @@ body {
 
 .who-we-are-text {
     flex: 60%;
-    text-align: right;
-    margin-right: 10vw;
+    text-align: left;
+    margin-left: 5%;
 }
 
 .who-we-are-text > h2 {
@@ -230,4 +202,51 @@ body {
 .who-we-are-image > img {   
     width: 90%;
     height: auto;
+}
+
+
+@media screen and (orientation: portrait) {
+    .what-we-do {
+        flex-direction: column;
+    }
+    .who-we-are {
+        flex-direction: column;
+    }
+    .subheading > h2 {
+        font-size: 5rem;
+    }
+    .subheading > p {
+        font-size: 2rem;
+        width: 80%;
+    }
+    .phone-number {
+        font-size: 3rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .email-button {
+        font-size: 3rem;
+        border-radius: 10px;
+    }
+    .link-container {
+        flex-direction: column;
+    }
+    .what-we-do-text > h2 {
+        font-size: 5rem;
+    }
+    .what-we-do-text > p {
+        font-size: 2rem;
+    }
+    .what-we-do-image{
+        margin: 20% 0 10% 0;
+    }
+    .who-we-are-image{
+        margin: 20% 0 10% 0;
+    }
+    .who-we-are-text > h2 {
+        font-size: 5rem;
+    }
+    .who-we-are-text > p {
+        font-size: 2rem;
+    }
 }
