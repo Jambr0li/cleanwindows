@@ -249,4 +249,7 @@ body {
     .who-we-are-text > p {
         font-size: 2rem;
     }
+    .who-we-are {
+        height: 100vh;
+    }
 }
