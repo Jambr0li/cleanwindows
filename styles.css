@@ -45,7 +45,7 @@ body {
     font-size: 2rem;
 }
 
-.header > div {
+.header > a {
     padding: 1rem;
 }
 
@@ -62,13 +62,12 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-top: 10vh;
 }
 
 .subheading {
     text-align: left;
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 8%;
     padding: 2rem;
 }
@@ -81,6 +80,12 @@ body {
 .subheading > p {
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
+    width: 40%;
+}
+
+.link-container {
+    display: flex;
+     align-items: flex-start;
 }
 
 .phone-number {
@@ -125,7 +130,7 @@ body {
 }
 
 .what-we-do {
-    height: 100vh;
+    height: 90vh;
     text-align: center;
     background-color: rgb(233, 233, 233);
     display: flex;
@@ -138,6 +143,25 @@ body {
         flex-direction: column;
     }
     .who-we-are {
+        flex-direction: column;
+    }
+    .subheading > h2 {
+        font-size: 5rem;
+    }
+    .subheading > p {
+        font-size: 2rem;
+        width: 80%;
+    }
+    .phone-number {
+        font-size: 3rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .email-button {
+        font-size: 3rem;
+        border-radius: 10px;
+    }
+    .link-container {
         flex-direction: column;
     }
 }
@@ -172,7 +196,7 @@ body {
 }
 
 .who-we-are {
-    height: 100vh;
+    height: 90vh;
     text-align: center;
     background: linear-gradient(rgba(22, 22, 22), rgb(83, 83, 83));
     color:rgb(255, 255, 255);
