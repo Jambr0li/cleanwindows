@@ -206,6 +206,9 @@ body {
 
 
 @media screen and (orientation: portrait) {
+    .header > a {
+        padding: 1.5rem;
+    }
     .what-we-do {
         flex-direction: column;
     }
