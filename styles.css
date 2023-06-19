@@ -79,7 +79,6 @@ body {
 
 .subheading > p {
     margin-bottom: 1.5rem;
-    font-size: 1.3rem;
     width: 40%;
 }
 
@@ -148,11 +147,11 @@ body {
     flex: 60%;
     text-align: left;
     margin-left: 5%;
+    margin-right: 1rem;
 }
 
 .what-we-do-text > p {
     color: black;
-    font-size: 1.3rem;
 }
 
 .what-we-do-image{
@@ -181,6 +180,7 @@ body {
     flex: 60%;
     text-align: left;
     margin-left: 5%;
+    margin-right: 1rem;
 }
 
 .who-we-are-text > h2 {
@@ -188,9 +188,6 @@ body {
     font-size: 3rem;
 }
 
-.who-we-are-text > p {
-    font-size: 1.3rem;
-}
 
 .who-we-are-image{
     flex: 40%;
@@ -204,6 +201,9 @@ body {
     height: auto;
 }
 
+.copy-text {
+    font-size: 1.5rem;
+}
 
 @media screen and (orientation: portrait) {
     .header > a {
@@ -219,7 +219,6 @@ body {
         font-size: 5rem;
     }
     .subheading > p {
-        font-size: 2rem;
         width: 80%;
     }
     .phone-number {
@@ -237,9 +236,6 @@ body {
     .what-we-do-text > h2 {
         font-size: 5rem;
     }
-    .what-we-do-text > p {
-        font-size: 2rem;
-    }
     .what-we-do-image{
         margin: 20% 0 10% 0;
     }
@@ -249,10 +245,16 @@ body {
     .who-we-are-text > h2 {
         font-size: 5rem;
     }
-    .who-we-are-text > p {
-        font-size: 2rem;
-    }
     .who-we-are {
         height: 100vh;
+    }
+    .what-we-do-image > img {   
+        width: 85vw;
+    }
+    .who-we-are-image > img {   
+        width: 85vw;
+    }
+    .copy-text {
+        font-size: 2.5rem;
     }
 }
